@@ -1,6 +1,6 @@
 # RSEmailFeedback
 
-[![CI Status](http://img.shields.io/travis/Ric Santos/RSEmailFeedback.svg?style=flat)](https://travis-ci.org/Ric Santos/RSEmailFeedback)
+[![CI Status](http://img.shields.io/travis/ricsantos/RSEmailFeedback.svg?style=flat)](https://travis-ci.org/ricsantos/RSEmailFeedback)
 [![Version](https://img.shields.io/cocoapods/v/RSEmailFeedback.svg?style=flat)](http://cocoapods.org/pods/RSEmailFeedback)
 [![License](https://img.shields.io/cocoapods/l/RSEmailFeedback.svg?style=flat)](http://cocoapods.org/pods/RSEmailFeedback)
 [![Platform](https://img.shields.io/cocoapods/p/RSEmailFeedback.svg?style=flat)](http://cocoapods.org/pods/RSEmailFeedback)
@@ -10,6 +10,8 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+iOS 7
 
 ## Installation
 
