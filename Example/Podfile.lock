@@ -1,0 +1,14 @@
+PODS:
+  - RSEmailFeedback (0.1.0)
+
+DEPENDENCIES:
+  - RSEmailFeedback (from `../`)
+
+EXTERNAL SOURCES:
+  RSEmailFeedback:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RSEmailFeedback: 10f5aeb4bf6671c881a706cf8ca5b5a7e730acad
+
+COCOAPODS: 0.39.0

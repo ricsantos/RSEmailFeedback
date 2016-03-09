@@ -1,0 +1,6 @@
+framework module RSEmailFeedback {
+  umbrella header "RSEmailFeedback-umbrella.h"
+
+  export *
+  module * { export * }
+}

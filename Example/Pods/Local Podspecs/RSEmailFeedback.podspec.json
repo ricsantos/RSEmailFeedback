@@ -1,0 +1,26 @@
+{
+  "name": "RSEmailFeedback",
+  "version": "0.1.0",
+  "summary": "A short description of RSEmailFeedback.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/RSEmailFeedback",
+  "license": "MIT",
+  "authors": {
+    "Ric Santos": "rics@ntos.me"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/RSEmailFeedback.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "RSEmailFeedback": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h"
+}
