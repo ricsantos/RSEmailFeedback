@@ -6,10 +6,16 @@
 //  Copyright © 2016 Ric Santos. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
+
+typedef void (^RSEmailFeedbackCompletion)(MFMailComposeResult result, NSError *error);
 
 @interface RSEmailFeedback : NSObject
 
-+ (void)showOnViewController:(UIViewController *)viewController;
+- (void)showOnViewController:(UIViewController *)viewController withCompletionHandler:(RSEmailFeedbackCompletion)completion;
+
+@property (nonatomic, strong) NSArray<NSString *> *toRecipients;
+@property (nonatomic, strong) NSString *subject;
 
 @end

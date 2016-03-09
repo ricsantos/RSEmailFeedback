@@ -44,7 +44,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
-    cell.textLabel.text = @"Show";
+    cell.textLabel.text = @"Show Mail Composer";
     
     return cell;
 }
@@ -52,7 +52,17 @@
 #pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    [RSEmailFeedback showOnViewController:self];
+    RSEmailFeedback *emailFeedback = [[RSEmailFeedback alloc] init];
+    emailFeedback.toRecipients = @[@"rics@ntos.me"];
+    emailFeedback.subject = @"Feedback for RSEmailFeedback";
+    [emailFeedback showOnViewController:self withCompletionHandler:^(MFMailComposeResult result, NSError *error) {
+        if (result == MFMailComposeResultSent) {
+            NSLog(@"email sent 😁");
+            
+        } else {
+            NSLog(@"email cancelled 😤");
+        }
+    }];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
