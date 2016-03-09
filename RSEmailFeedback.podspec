@@ -9,22 +9,18 @@
 Pod::Spec.new do |s|
   s.name             = "RSEmailFeedback"
   s.version          = "0.1.0"
-  s.summary          = "A short description of RSEmailFeedback."
+  s.summary          = "An iOS component to present the email compose sheet with device and app info in the body."
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+A simple way to get direct feedback from your App users is via email. This component simplifies the presentation of the email composer by adding blocks, and pre-populates the email message body with details about the device, OS and app version.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/RSEmailFeedback"
+  s.homepage         = "https://github.com/ricsantos/RSEmailFeedback"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ric Santos" => "rics@ntos.me" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/RSEmailFeedback.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/ricsantos/RSEmailFeedback.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/ric__santos'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
