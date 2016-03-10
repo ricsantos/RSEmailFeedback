@@ -26,8 +26,10 @@
         self.strongSelf = self;
         
         MFMailComposeViewController *mailComposeViewController = [[MFMailComposeViewController alloc] init];
-        //composeViewController.navigationBar.tintColor = [Appearance themeColor1];
         mailComposeViewController.mailComposeDelegate = self;
+        if (self.tintColor) {
+            mailComposeViewController.navigationBar.tintColor = self.tintColor;
+        }
         
         [mailComposeViewController setToRecipients:self.toRecipients];
         [mailComposeViewController setSubject:self.subject];
