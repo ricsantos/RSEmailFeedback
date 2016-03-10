@@ -33,16 +33,22 @@
         
         [mailComposeViewController setToRecipients:self.toRecipients];
         [mailComposeViewController setSubject:self.subject];
+
+        NSMutableArray *lines = [NSMutableArray array];
+        [lines addObject:@"<br><br><br><br><br><br><br><br><br><br><br>"];
+        [lines addObject:@"<hr>Device info:"];
         
-        NSString *systemName = [[UIDevice currentDevice] systemName];
         NSString *systemVersion = [[UIDevice currentDevice] systemVersion];
+        [lines addObject:[NSString stringWithFormat:@"iOS %@", systemVersion]];
         
         NSDictionary *infoDictionary = [[NSBundle mainBundle] infoDictionary];
         NSString *majorVersion = [infoDictionary objectForKey:@"CFBundleShortVersionString"];
         NSString *minorVersion = [infoDictionary objectForKey:@"CFBundleVersion"];
+        [lines addObject:[NSString stringWithFormat:@"App Version %@ (%@)", majorVersion, minorVersion]];
         
-        NSString *messageBody = [NSString stringWithFormat:@"\n\n\n\n\n\n\n\n\n%@ %@\nVersion: %@ (%@)", systemName, systemVersion, majorVersion, minorVersion];
-        [mailComposeViewController setMessageBody:messageBody isHTML:NO];
+        [lines addObject:@"<hr>"];
+        
+        [mailComposeViewController setMessageBody:[lines componentsJoinedByString:@"<br>"] isHTML:YES];
         
         [viewController presentViewController:mailComposeViewController animated:YES completion:nil];
         
