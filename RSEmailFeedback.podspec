@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RSEmailFeedback"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "An iOS component to present the email compose sheet with device and app info in the body."
 
   s.description      = <<-DESC
