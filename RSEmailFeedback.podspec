@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RSEmailFeedback"
-  s.version          = "0.2.0"
+  s.version          = "0.3.0"
   s.summary          = "An iOS component to present the email compose sheet with device and app info in the body."
 
   s.description      = <<-DESC
@@ -32,5 +32,5 @@ A simple way to get direct feedback from your App users is via email. This compo
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'GBDeviceInfo', '~> 3.x'
+  s.dependency 'GBDeviceInfo', '~> 3.6'
 end
