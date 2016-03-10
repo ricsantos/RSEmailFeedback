@@ -9,13 +9,26 @@
 #import "RSViewController.h"
 #import <RSEmailFeedback/RSEmailFeedback.h>
 
+NSString * const kRSExampleItemShowDefault = @"default";
+NSString * const kRSExampleItemShowWithAdditionalInfo = @"with-additional-info";
+
 @interface RSViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NSArray *items;
 
 @end
 
 @implementation RSViewController
+
+- (instancetype)init {
+    self = [super init];
+    
+    self.items = @[kRSExampleItemShowDefault,
+                   kRSExampleItemShowWithAdditionalInfo];
+    
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -38,14 +51,20 @@
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 1;
+    return self.items.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
     
-    cell.textLabel.text = @"Show Mail Composer";
-    
+    id item = self.items[indexPath.row];
+    if (item == kRSExampleItemShowDefault) {
+        cell.textLabel.text = NSLocalizedString(@"Show default", nil);
+        
+    } else if (item == kRSExampleItemShowWithAdditionalInfo ) {
+        cell.textLabel.text = NSLocalizedString(@"Show with additional info", nil);
+    }
+
     return cell;
 }
 
@@ -55,6 +74,13 @@
     RSEmailFeedback *emailFeedback = [[RSEmailFeedback alloc] init];
     emailFeedback.toRecipients = @[@"rics@ntos.me"];
     emailFeedback.subject = @"Feedback for RSEmailFeedback";
+    
+    id item = self.items[indexPath.row];
+    if (item == kRSExampleItemShowWithAdditionalInfo) {
+        emailFeedback.additionalDeviceInfo = @[@"Place custom info here",
+                                               @"One array object per line"];
+    }
+    
     [emailFeedback showOnViewController:self withCompletionHandler:^(MFMailComposeResult result, NSError *error) {
         if (result == MFMailComposeResultSent) {
             NSLog(@"email sent 😁");

@@ -17,6 +17,7 @@ typedef void (^RSEmailFeedbackCompletion)(MFMailComposeResult result, NSError *e
 
 @property (nonatomic, strong) NSArray<NSString *> *toRecipients;
 @property (nonatomic, strong) NSString *subject;
+@property (nonatomic, strong) NSArray<NSString *> *additionalDeviceInfo;
 
 @property (nonatomic, strong) UIColor *tintColor;
 

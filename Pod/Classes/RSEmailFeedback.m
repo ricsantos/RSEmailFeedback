@@ -46,6 +46,8 @@
         NSString *minorVersion = [infoDictionary objectForKey:@"CFBundleVersion"];
         [lines addObject:[NSString stringWithFormat:@"App Version %@ (%@)", majorVersion, minorVersion]];
         
+        [lines addObjectsFromArray:self.additionalDeviceInfo];
+        
         [lines addObject:@"<hr>"];
         
         [mailComposeViewController setMessageBody:[lines componentsJoinedByString:@"<br>"] isHTML:YES];
