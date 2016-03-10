@@ -7,110 +7,170 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0821783B2711FC6B0B48E405399C0FD8 /* RSEmailFeedback-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF62736B03499EEA15B1BD7B7A8BF53 /* RSEmailFeedback-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37041438CEF31B63E6D95E7F3AEC17B1 /* RSEmailFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCAC416F517CF04CAF2AFF249BEE025 /* RSEmailFeedback.m */; };
-		56C90F0586F23B0DC7A7CF43B3846DDB /* Pods-RSEmailFeedback_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A715C79B26CA62792A6FA30B772A44 /* Pods-RSEmailFeedback_Example-dummy.m */; };
-		7E731A30BCF5E593BA35F4185FD09DBB /* RSEmailFeedback.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0DC86CBF3D861527CAA6714DC292548 /* RSEmailFeedback.bundle */; };
-		8F688768E63190C76C9F40E5BDD684D6 /* Pods-RSEmailFeedback_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BACE719293B7E0EBD07AD67BDFDFD5F /* Pods-RSEmailFeedback_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98C75B45FC30CFEA6B7F4BA9160A1D9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		BA674C9608950D5084D24E246EF8AEA5 /* Pods-RSEmailFeedback_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47790941151507FA949074A42186B1E9 /* Pods-RSEmailFeedback_Tests-dummy.m */; };
-		E1002E973854B4ABCD01C052E14BA34F /* Pods-RSEmailFeedback_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1780ADCFE3671F98915E9E473F75FD12 /* Pods-RSEmailFeedback_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E144E1A530976575AFDA6FB9804F9405 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		E1AE337A10B7BED9A7ECE2667D705ED0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		F58519B8FFB8810588C4BE42F43CC340 /* RSEmailFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F42B2821A1816D4DA17D4F6B148AB5E /* RSEmailFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8FEA2344FEE0FACDD754A935E78A1EE /* RSEmailFeedback-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802CA10FD021853ADA90E83251560A24 /* RSEmailFeedback-dummy.m */; };
+		0081C94AAFB1E76E307BF3E4C53EA0EC /* RSEmailFeedback-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802CA10FD021853ADA90E83251560A24 /* RSEmailFeedback-dummy.m */; };
+		0BB4171AE7F9E950BB321428AC2C58FC /* RSEmailFeedback.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F5070C8B832336F67D55125DD90AC622 /* RSEmailFeedback.bundle */; };
+		10E4F87EC05A156DFD144946522F1E06 /* GBDeviceInfoInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DCD2C00D68F527A9B9C312D8E184C13 /* GBDeviceInfoInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2950FA8486174E7E4259889F64F02862 /* GBDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB4B836A43A89ACBC260EAD69D46B1A /* GBDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A0919E3F2121D687C8F14FC36472473 /* Pods-RSEmailFeedback_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BACE719293B7E0EBD07AD67BDFDFD5F /* Pods-RSEmailFeedback_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BFFC46C8508E6D7607DEF4E3FAE82A5 /* GBDeviceInfo_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F1D71E88109C6FAE174EF698550D5333 /* GBDeviceInfo_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		345A8558F7074B9EF7C4119112160E8F /* GBDeviceInfo_Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 021D1D0A252022D081A19D261FD228AC /* GBDeviceInfo_Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52218EE4E98C8D1BCF8E4F58D125B89D /* GBDeviceInfo_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4454C2F442A8B0391EDEAC7C33B646A8 /* GBDeviceInfo_iOS.m */; };
+		5925B99F87E06508605C5315BFAE4F91 /* Pods-RSEmailFeedback_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1780ADCFE3671F98915E9E473F75FD12 /* Pods-RSEmailFeedback_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E160CF773B8BE07B9677FB9218A532F /* GBDeviceInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E8E7FF3A7B021C397443214CD9A7AE /* GBDeviceInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67B5E287056B6247AFBCD90D7D09E5A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD8C2A25E0B74318DEB26DCF0819C83 /* Foundation.framework */; };
+		6D830FF3A7412BFC1B248A09275409E9 /* GBDeviceInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C8BF4A2018B62BC2A7638F94479D06 /* GBDeviceInfo.framework */; };
+		76E00BBE2B84F8EA87EDFC8086132442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD8C2A25E0B74318DEB26DCF0819C83 /* Foundation.framework */; };
+		77B4236E9019B4F935D8D5590B049C72 /* Pods-RSEmailFeedback_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A715C79B26CA62792A6FA30B772A44 /* Pods-RSEmailFeedback_Example-dummy.m */; };
+		7B2DAD05710F209923ABD82A6A62F5EE /* RSEmailFeedback-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF62736B03499EEA15B1BD7B7A8BF53 /* RSEmailFeedback-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90968809F441B8C71E386D96497242B9 /* GBDeviceInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 911DD408D54EBF46B3E9A9BBD128B4C1 /* GBDeviceInfo-dummy.m */; };
+		93BC767E8047B8C1978331A54DA6A993 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD8C2A25E0B74318DEB26DCF0819C83 /* Foundation.framework */; };
+		AEECEAAD9A4595765E85A79BED9FDE1C /* GBDeviceInfo_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = ADD8E613192A39B8C4E28E6B599F2245 /* GBDeviceInfo_Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D6B5C7ABFAEA293C62175974AB0F0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD8C2A25E0B74318DEB26DCF0819C83 /* Foundation.framework */; };
+		B5550DEFFB11C7E23A18CFAA12FF0A2C /* RSEmailFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = EBCAC416F517CF04CAF2AFF249BEE025 /* RSEmailFeedback.m */; };
+		B59479B42D447FD2BB4B19038D16B372 /* GBDeviceInfoTypes_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = F162314BA13460A2C654EA10901C83C9 /* GBDeviceInfoTypes_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75DB60F8113D9FA4639F86F9A361862 /* RSEmailFeedback.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F42B2821A1816D4DA17D4F6B148AB5E /* RSEmailFeedback.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C82C58666927EE8F033F0830CD625608 /* GBDeviceInfo_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = EDD92985C162D21C54EA2376FB58D06A /* GBDeviceInfo_Common.m */; };
+		CA03F7722D1853741519CD97391C345D /* GBDeviceInfoTypes_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 029F0BB7BFB9E1A6C73C847C9FDF6314 /* GBDeviceInfoTypes_Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7247404FB0C7421C63EB34E5E81FA9B /* Pods-RSEmailFeedback_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47790941151507FA949074A42186B1E9 /* Pods-RSEmailFeedback_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		029407A9527BE9A7812F24407EBE972E /* PBXContainerItemProxy */ = {
+		1F75797677680CF284D552ECF95EC3FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 81E9CF67676E3F8F831D70F635A1A83F;
+			remoteGlobalIDString = 3F0E15E66B54B2B42F029A61934F800D;
+			remoteInfo = GBDeviceInfo;
+		};
+		5CF66798856DEC2D6A59C7814C982741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51F3F1BEC0C2E22349011F887F4DE9AB;
 			remoteInfo = RSEmailFeedback;
 		};
-		1AC137BEF9B3E14138A79A4FD0BBD8B0 /* PBXContainerItemProxy */ = {
+		79BF805B651F957F7FE6C85ADA26BCB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35017B23DE254BA8349EA309F6FC52CF;
+			remoteGlobalIDString = 3F0E15E66B54B2B42F029A61934F800D;
+			remoteInfo = GBDeviceInfo;
+		};
+		A141732D67F03FBB6FFA0E41E75AD9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51F3F1BEC0C2E22349011F887F4DE9AB;
+			remoteInfo = RSEmailFeedback;
+		};
+		DD9F0965DB5F82F9FC555D55B415BE43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0E15E66B54B2B42F029A61934F800D;
+			remoteInfo = GBDeviceInfo;
+		};
+		F31E2EFB57F4F52DD7F793DF8F471C18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82EF709F34E09619F8BF328C0D6FB61A;
 			remoteInfo = "RSEmailFeedback-RSEmailFeedback";
-		};
-		1EAC37F57F6B85EFA5623A557D2A552B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 81E9CF67676E3F8F831D70F635A1A83F;
-			remoteInfo = RSEmailFeedback;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021D1D0A252022D081A19D261FD228AC /* GBDeviceInfo_Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_Subclass.h; path = GBDeviceInfo/GBDeviceInfo_Subclass.h; sourceTree = "<group>"; };
+		029F0BB7BFB9E1A6C73C847C9FDF6314 /* GBDeviceInfoTypes_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoTypes_Common.h; path = GBDeviceInfo/GBDeviceInfoTypes_Common.h; sourceTree = "<group>"; };
 		0344BD194FF66F8D40B43D22B2C1B7E5 /* Pods-RSEmailFeedback_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSEmailFeedback_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0BF62736B03499EEA15B1BD7B7A8BF53 /* RSEmailFeedback-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSEmailFeedback-umbrella.h"; sourceTree = "<group>"; };
 		1780ADCFE3671F98915E9E473F75FD12 /* Pods-RSEmailFeedback_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSEmailFeedback_Example-umbrella.h"; sourceTree = "<group>"; };
 		1B5F2D02DE25C81D385AC4FB47A16D85 /* RSEmailFeedback.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSEmailFeedback.xcconfig; sourceTree = "<group>"; };
-		238D9E0171A82262A90501E11D9A9497 /* RSEmailFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSEmailFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1CB4B836A43A89ACBC260EAD69D46B1A /* GBDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo.h; path = GBDeviceInfo/GBDeviceInfo.h; sourceTree = "<group>"; };
+		2871304604813B44A04B9EF64A2AADA3 /* Pods_RSEmailFeedback_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSEmailFeedback_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC551739B8DB9A029CD0CB3BFCC5CF7 /* GBDeviceInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBDeviceInfo.xcconfig; sourceTree = "<group>"; };
 		3ECABFCE0C57D55BC9C750C42135FB37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F7C9E64C4C41063AF5F166F5413BDC6 /* Pods-RSEmailFeedback_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSEmailFeedback_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		41E8E7FF3A7B021C397443214CD9A7AE /* GBDeviceInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBDeviceInfo-umbrella.h"; sourceTree = "<group>"; };
+		4454C2F442A8B0391EDEAC7C33B646A8 /* GBDeviceInfo_iOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBDeviceInfo_iOS.m; path = GBDeviceInfo/GBDeviceInfo_iOS.m; sourceTree = "<group>"; };
 		47790941151507FA949074A42186B1E9 /* Pods-RSEmailFeedback_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSEmailFeedback_Tests-dummy.m"; sourceTree = "<group>"; };
 		4E9B8B3F5C6EA7F3150F6D7B107398F7 /* Pods-RSEmailFeedback_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSEmailFeedback_Example-resources.sh"; sourceTree = "<group>"; };
 		4F42B2821A1816D4DA17D4F6B148AB5E /* RSEmailFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RSEmailFeedback.h; sourceTree = "<group>"; };
 		54E75CE92CBFF45E1B361CE2654AB7FB /* Pods-RSEmailFeedback_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSEmailFeedback_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		572C4A557F1278E1E3425FC54D0A7ABE /* GBDeviceInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBDeviceInfo-prefix.pch"; sourceTree = "<group>"; };
 		5BACE719293B7E0EBD07AD67BDFDFD5F /* Pods-RSEmailFeedback_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSEmailFeedback_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5CA104941C3863E0148823C71E4BF7FA /* Pods_RSEmailFeedback_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSEmailFeedback_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCD2C00D68F527A9B9C312D8E184C13 /* GBDeviceInfoInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoInterface.h; path = GBDeviceInfo/GBDeviceInfoInterface.h; sourceTree = "<group>"; };
 		72D70DC4A9093D3068C263CD849F7B76 /* Pods-RSEmailFeedback_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSEmailFeedback_Tests-resources.sh"; sourceTree = "<group>"; };
 		730BD43B3459781EE0E509E0CA8A7D59 /* Pods-RSEmailFeedback_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RSEmailFeedback_Tests.modulemap"; sourceTree = "<group>"; };
-		7BBEA1F1DC097079A8FF469A2DAB8B50 /* Pods_RSEmailFeedback_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSEmailFeedback_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		802CA10FD021853ADA90E83251560A24 /* RSEmailFeedback-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSEmailFeedback-dummy.m"; sourceTree = "<group>"; };
 		81AC88708D8EC0A33F730A3A183966CC /* Pods-RSEmailFeedback_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSEmailFeedback_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		911DD408D54EBF46B3E9A9BBD128B4C1 /* GBDeviceInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBDeviceInfo-dummy.m"; sourceTree = "<group>"; };
 		A60AF0BCC8F58604A829B5FED33C0B10 /* Pods-RSEmailFeedback_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSEmailFeedback_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0DC86CBF3D861527CAA6714DC292548 /* RSEmailFeedback.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSEmailFeedback.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD8E613192A39B8C4E28E6B599F2245 /* GBDeviceInfo_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_Common.h; path = GBDeviceInfo/GBDeviceInfo_Common.h; sourceTree = "<group>"; };
+		B3C8BF4A2018B62BC2A7638F94479D06 /* GBDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7273CC13EB52EFA7ADFF873F5D7D525 /* Pods-RSEmailFeedback_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSEmailFeedback_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B7A715C79B26CA62792A6FA30B772A44 /* Pods-RSEmailFeedback_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSEmailFeedback_Example-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBFA79D1BF8844AFA2DB93E964FC331A /* Pods-RSEmailFeedback_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSEmailFeedback_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BE2472C81ED47B51394B6FA496E90DD7 /* GBDeviceInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GBDeviceInfo.modulemap; sourceTree = "<group>"; };
+		C246F6034501BE6331294709ADBC25F9 /* GBDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0448EF94649A494059643DC91CC199 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6BC2F399691CE7513DD2F480A1F5C9F /* Pods-RSEmailFeedback_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RSEmailFeedback_Example.modulemap"; sourceTree = "<group>"; };
 		DA2532A8FF6D4A4D18564B0C0DB085B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD22AF4161A5C293DFF8CD3CBF715802 /* Pods-RSEmailFeedback_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSEmailFeedback_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E5AEAAB258B8F038C4AE9D5DFCF917CF /* RSEmailFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSEmailFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBCAC416F517CF04CAF2AFF249BEE025 /* RSEmailFeedback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RSEmailFeedback.m; sourceTree = "<group>"; };
 		ED3AA4D552923DB9756E06FC4553A817 /* Pods-RSEmailFeedback_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSEmailFeedback_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EE2F055A9BB0BD914CDF7C89072CD373 /* Pods_RSEmailFeedback_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSEmailFeedback_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA513FCB1DAA1965BF24DD2815C466F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD92985C162D21C54EA2376FB58D06A /* GBDeviceInfo_Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBDeviceInfo_Common.m; path = GBDeviceInfo/GBDeviceInfo_Common.m; sourceTree = "<group>"; };
+		F162314BA13460A2C654EA10901C83C9 /* GBDeviceInfoTypes_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoTypes_iOS.h; path = GBDeviceInfo/GBDeviceInfoTypes_iOS.h; sourceTree = "<group>"; };
+		F1D71E88109C6FAE174EF698550D5333 /* GBDeviceInfo_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_iOS.h; path = GBDeviceInfo/GBDeviceInfo_iOS.h; sourceTree = "<group>"; };
+		F5070C8B832336F67D55125DD90AC622 /* RSEmailFeedback.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSEmailFeedback.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B2D59C43F06557D216CFAC65C8216A /* Pods-RSEmailFeedback_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSEmailFeedback_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F9F51E72AC23042A40D0E0A5A5C1229A /* RSEmailFeedback.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RSEmailFeedback.modulemap; sourceTree = "<group>"; };
+		FDD8C2A25E0B74318DEB26DCF0819C83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FF4DB58F09F513FCD73FDB3448CF369B /* RSEmailFeedback-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSEmailFeedback-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFBDBDB5B6257EA2EB7641169D4BFEE1 /* Frameworks */ = {
+		16E259C525B6CD39E237EAF281B13985 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E144E1A530976575AFDA6FB9804F9405 /* Foundation.framework in Frameworks */,
+				67B5E287056B6247AFBCD90D7D09E5A9 /* Foundation.framework in Frameworks */,
+				6D830FF3A7412BFC1B248A09275409E9 /* GBDeviceInfo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3C213EA8EBDB508B4BF4DDAC91A2A5A /* Frameworks */ = {
+		52D6FB4D06FCF6A64F13F6C2C0641D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D6B5C7ABFAEA293C62175974AB0F0E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D4C4BE1B20D2E084623BB95C4020F2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DEDCB924D29DAFDBE2C4DE7599C7F783 /* Frameworks */ = {
+		BB61C9E21E7AC1A9504DBE2C7F34EAFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98C75B45FC30CFEA6B7F4BA9160A1D9E /* Foundation.framework in Frameworks */,
+				93BC767E8047B8C1978331A54DA6A993 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F26D25BE167A23DFB9D770B1334D0706 /* Frameworks */ = {
+		F55A5D38E17DEE585641E9AD7B4831EC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1AE337A10B7BED9A7ECE2667D705ED0 /* Foundation.framework in Frameworks */,
+				76E00BBE2B84F8EA87EDFC8086132442 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +184,23 @@
 				EBCAC416F517CF04CAF2AFF249BEE025 /* RSEmailFeedback.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		0C5C43981EABFF896F3AADCB38FD8396 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C9779EE4C8FE78BD62AC3000CB90C38 /* GBDeviceInfo */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4C9779EE4C8FE78BD62AC3000CB90C38 /* GBDeviceInfo */ = {
+			isa = PBXGroup;
+			children = (
+				E5D10256C6E38A541606A965F6217145 /* Core */,
+				C506BA5252C2F50BFEDFBF67759F034F /* Support Files */,
+			);
+			path = GBDeviceInfo;
 			sourceTree = "<group>";
 		};
 		545A8080481B3ABBBE1F6C2FC32B80A8 /* Development Pods */ = {
@@ -147,8 +224,9 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				545A8080481B3ABBBE1F6C2FC32B80A8 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D1E93591005DB08B763EEEA542564D73 /* Products */,
+				AB4B806119DB4D8950D692355024115E /* Frameworks */,
+				0C5C43981EABFF896F3AADCB38FD8396 /* Pods */,
+				F1280904A0E77DF7D056A3682FD2EBCF /* Products */,
 				7F8BA485311193557C3DA685AFF54026 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -212,31 +290,27 @@
 			path = "Target Support Files/Pods-RSEmailFeedback_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		AB4B806119DB4D8950D692355024115E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+				B3C8BF4A2018B62BC2A7638F94479D06 /* GBDeviceInfo.framework */,
+				FCF55C0DA38FC40D5B8DB449F0BAF4B6 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+		C506BA5252C2F50BFEDFBF67759F034F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+				BE2472C81ED47B51394B6FA496E90DD7 /* GBDeviceInfo.modulemap */,
+				2CC551739B8DB9A029CD0CB3BFCC5CF7 /* GBDeviceInfo.xcconfig */,
+				911DD408D54EBF46B3E9A9BBD128B4C1 /* GBDeviceInfo-dummy.m */,
+				572C4A557F1278E1E3425FC54D0A7ABE /* GBDeviceInfo-prefix.pch */,
+				41E8E7FF3A7B021C397443214CD9A7AE /* GBDeviceInfo-umbrella.h */,
+				EDA513FCB1DAA1965BF24DD2815C466F /* Info.plist */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D1E93591005DB08B763EEEA542564D73 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7BBEA1F1DC097079A8FF469A2DAB8B50 /* Pods_RSEmailFeedback_Example.framework */,
-				EE2F055A9BB0BD914CDF7C89072CD373 /* Pods_RSEmailFeedback_Tests.framework */,
-				B0DC86CBF3D861527CAA6714DC292548 /* RSEmailFeedback.bundle */,
-				238D9E0171A82262A90501E11D9A9497 /* RSEmailFeedback.framework */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/GBDeviceInfo";
 			sourceTree = "<group>";
 		};
 		D761873C0BB615B912C3CC6EB70F3F51 /* RSEmailFeedback */ = {
@@ -249,44 +323,132 @@
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		E5D10256C6E38A541606A965F6217145 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4B836A43A89ACBC260EAD69D46B1A /* GBDeviceInfo.h */,
+				ADD8E613192A39B8C4E28E6B599F2245 /* GBDeviceInfo_Common.h */,
+				EDD92985C162D21C54EA2376FB58D06A /* GBDeviceInfo_Common.m */,
+				F1D71E88109C6FAE174EF698550D5333 /* GBDeviceInfo_iOS.h */,
+				4454C2F442A8B0391EDEAC7C33B646A8 /* GBDeviceInfo_iOS.m */,
+				021D1D0A252022D081A19D261FD228AC /* GBDeviceInfo_Subclass.h */,
+				6DCD2C00D68F527A9B9C312D8E184C13 /* GBDeviceInfoInterface.h */,
+				029F0BB7BFB9E1A6C73C847C9FDF6314 /* GBDeviceInfoTypes_Common.h */,
+				F162314BA13460A2C654EA10901C83C9 /* GBDeviceInfoTypes_iOS.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F1280904A0E77DF7D056A3682FD2EBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C246F6034501BE6331294709ADBC25F9 /* GBDeviceInfo.framework */,
+				2871304604813B44A04B9EF64A2AADA3 /* Pods_RSEmailFeedback_Example.framework */,
+				5CA104941C3863E0148823C71E4BF7FA /* Pods_RSEmailFeedback_Tests.framework */,
+				F5070C8B832336F67D55125DD90AC622 /* RSEmailFeedback.bundle */,
+				E5AEAAB258B8F038C4AE9D5DFCF917CF /* RSEmailFeedback.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCF55C0DA38FC40D5B8DB449F0BAF4B6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FDD8C2A25E0B74318DEB26DCF0819C83 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4CD422CF900704B09FC09F4AF99BA6F4 /* Headers */ = {
+		2EFD4DE5E97BE3564B293DECA630114A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0821783B2711FC6B0B48E405399C0FD8 /* RSEmailFeedback-umbrella.h in Headers */,
-				F58519B8FFB8810588C4BE42F43CC340 /* RSEmailFeedback.h in Headers */,
+				5925B99F87E06508605C5315BFAE4F91 /* Pods-RSEmailFeedback_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78343DBB06C187FFEFF4877EBB02A285 /* Headers */ = {
+		34B9DB8F223F1D4F24422775410AB91D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1002E973854B4ABCD01C052E14BA34F /* Pods-RSEmailFeedback_Example-umbrella.h in Headers */,
+				7B2DAD05710F209923ABD82A6A62F5EE /* RSEmailFeedback-umbrella.h in Headers */,
+				B75DB60F8113D9FA4639F86F9A361862 /* RSEmailFeedback.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC0E02879CF2097B3B4D3531FF58BBB9 /* Headers */ = {
+		62C6751EFD27E7A65A4335C7C443CC9B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F688768E63190C76C9F40E5BDD684D6 /* Pods-RSEmailFeedback_Tests-umbrella.h in Headers */,
+				2A0919E3F2121D687C8F14FC36472473 /* Pods-RSEmailFeedback_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A09FF1A9E676BE0BBCE355E35F595265 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E160CF773B8BE07B9677FB9218A532F /* GBDeviceInfo-umbrella.h in Headers */,
+				2950FA8486174E7E4259889F64F02862 /* GBDeviceInfo.h in Headers */,
+				AEECEAAD9A4595765E85A79BED9FDE1C /* GBDeviceInfo_Common.h in Headers */,
+				2BFFC46C8508E6D7607DEF4E3FAE82A5 /* GBDeviceInfo_iOS.h in Headers */,
+				345A8558F7074B9EF7C4119112160E8F /* GBDeviceInfo_Subclass.h in Headers */,
+				10E4F87EC05A156DFD144946522F1E06 /* GBDeviceInfoInterface.h in Headers */,
+				CA03F7722D1853741519CD97391C345D /* GBDeviceInfoTypes_Common.h in Headers */,
+				B59479B42D447FD2BB4B19038D16B372 /* GBDeviceInfoTypes_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		35017B23DE254BA8349EA309F6FC52CF /* RSEmailFeedback-RSEmailFeedback */ = {
+		3F0E15E66B54B2B42F029A61934F800D /* GBDeviceInfo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A76DFB50F6D9A50546A0ABAC46D9811 /* Build configuration list for PBXNativeTarget "RSEmailFeedback-RSEmailFeedback" */;
+			buildConfigurationList = 62F3E6711767CAC584F0A7AE56D3FE73 /* Build configuration list for PBXNativeTarget "GBDeviceInfo" */;
 			buildPhases = (
-				84F0131C758D1243581E47BDAE2D256A /* Sources */,
-				B3C213EA8EBDB508B4BF4DDAC91A2A5A /* Frameworks */,
-				C0B536660EA00D5EE7032961A264CED2 /* Resources */,
+				925C29D0D649354056E72DE61E911711 /* Sources */,
+				F55A5D38E17DEE585641E9AD7B4831EC /* Frameworks */,
+				A09FF1A9E676BE0BBCE355E35F595265 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBDeviceInfo;
+			productName = GBDeviceInfo;
+			productReference = C246F6034501BE6331294709ADBC25F9 /* GBDeviceInfo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51F3F1BEC0C2E22349011F887F4DE9AB /* RSEmailFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A81300C6A881BD5530CA0E596471715 /* Build configuration list for PBXNativeTarget "RSEmailFeedback" */;
+			buildPhases = (
+				2009ACE3B3C3DDF19C3C020BD53FA943 /* Sources */,
+				16E259C525B6CD39E237EAF281B13985 /* Frameworks */,
+				39AC0DF3A42BDBE134C41EE5614681A9 /* Resources */,
+				34B9DB8F223F1D4F24422775410AB91D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBDFE75904ACEB58484158422DB8B1A /* PBXTargetDependency */,
+				6407667C28EF3F86766300D3DBB16509 /* PBXTargetDependency */,
+			);
+			name = RSEmailFeedback;
+			productName = RSEmailFeedback;
+			productReference = E5AEAAB258B8F038C4AE9D5DFCF917CF /* RSEmailFeedback.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82EF709F34E09619F8BF328C0D6FB61A /* RSEmailFeedback-RSEmailFeedback */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EEFE3F84E91E426572B3A70C3578CA /* Build configuration list for PBXNativeTarget "RSEmailFeedback-RSEmailFeedback" */;
+			buildPhases = (
+				A26D9435C0B8008699AEDF3E6AE55E0F /* Sources */,
+				6D4C4BE1B20D2E084623BB95C4020F2E /* Frameworks */,
+				F43E3FAD44FE9953CFBC901A47BD5119 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -294,62 +456,45 @@
 			);
 			name = "RSEmailFeedback-RSEmailFeedback";
 			productName = "RSEmailFeedback-RSEmailFeedback";
-			productReference = B0DC86CBF3D861527CAA6714DC292548 /* RSEmailFeedback.bundle */;
+			productReference = F5070C8B832336F67D55125DD90AC622 /* RSEmailFeedback.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		4EEAF5653DDFD5F6BD4E77E3BCF07244 /* Pods-RSEmailFeedback_Tests */ = {
+		AAF66E3670EA39902321C110A377D84D /* Pods-RSEmailFeedback_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA1BDCF2686A00CD11DA3754124ED801 /* Build configuration list for PBXNativeTarget "Pods-RSEmailFeedback_Tests" */;
+			buildConfigurationList = F3073E25A1AF3D5944BBACEAD18A49B1 /* Build configuration list for PBXNativeTarget "Pods-RSEmailFeedback_Example" */;
 			buildPhases = (
-				62115531B1705F47C61752D8A3423322 /* Sources */,
-				AFBDBDB5B6257EA2EB7641169D4BFEE1 /* Frameworks */,
-				CC0E02879CF2097B3B4D3531FF58BBB9 /* Headers */,
+				4361A56BDE5C5488027C69DE9F84FF8C /* Sources */,
+				BB61C9E21E7AC1A9504DBE2C7F34EAFC /* Frameworks */,
+				2EFD4DE5E97BE3564B293DECA630114A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				357E77D55A4B7814135EBCE8F1258469 /* PBXTargetDependency */,
-			);
-			name = "Pods-RSEmailFeedback_Tests";
-			productName = "Pods-RSEmailFeedback_Tests";
-			productReference = EE2F055A9BB0BD914CDF7C89072CD373 /* Pods_RSEmailFeedback_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		81E9CF67676E3F8F831D70F635A1A83F /* RSEmailFeedback */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4EBF502193147FF365DD8951A11329C /* Build configuration list for PBXNativeTarget "RSEmailFeedback" */;
-			buildPhases = (
-				7EC7464F29C6983AFD7F5CCB6B005116 /* Sources */,
-				F26D25BE167A23DFB9D770B1334D0706 /* Frameworks */,
-				8C984924C6C8B8D81588578A1C803916 /* Resources */,
-				4CD422CF900704B09FC09F4AF99BA6F4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D390A71490DE552A47ECF38D5F3F0EE9 /* PBXTargetDependency */,
-			);
-			name = RSEmailFeedback;
-			productName = RSEmailFeedback;
-			productReference = 238D9E0171A82262A90501E11D9A9497 /* RSEmailFeedback.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C1D0F72687C797DA355CFCC3AE294D2B /* Pods-RSEmailFeedback_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7CB028E8F44332BD2C6B992618F7FAC8 /* Build configuration list for PBXNativeTarget "Pods-RSEmailFeedback_Example" */;
-			buildPhases = (
-				36BF6684E60ED16DB685980912AA6EBB /* Sources */,
-				DEDCB924D29DAFDBE2C4DE7599C7F783 /* Frameworks */,
-				78343DBB06C187FFEFF4877EBB02A285 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E0FC14465641187C0116D73078FA8A1 /* PBXTargetDependency */,
+				CB19ACC21BD3DBAD8F9F6AC205BFDC99 /* PBXTargetDependency */,
+				4BFED37812B5C234DEC9F3B8C8C8ECAA /* PBXTargetDependency */,
 			);
 			name = "Pods-RSEmailFeedback_Example";
 			productName = "Pods-RSEmailFeedback_Example";
-			productReference = 7BBEA1F1DC097079A8FF469A2DAB8B50 /* Pods_RSEmailFeedback_Example.framework */;
+			productReference = 2871304604813B44A04B9EF64A2AADA3 /* Pods_RSEmailFeedback_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA0542649EC914647C0A28BEC55FD4A5 /* Pods-RSEmailFeedback_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFCA11063DC0F87C0FF35F88A28372F /* Build configuration list for PBXNativeTarget "Pods-RSEmailFeedback_Tests" */;
+			buildPhases = (
+				DBD90F00E89B2528ED7A61A24C281CAA /* Sources */,
+				52D6FB4D06FCF6A64F13F6C2C0641D10 /* Frameworks */,
+				62C6751EFD27E7A65A4335C7C443CC9B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B574D08205E251AAC5C6B6433B21367 /* PBXTargetDependency */,
+				DC53B7E18066082AAD6236436AEF5C39 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSEmailFeedback_Tests";
+			productName = "Pods-RSEmailFeedback_Tests";
+			productReference = 5CA104941C3863E0148823C71E4BF7FA /* Pods_RSEmailFeedback_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -369,28 +514,29 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D1E93591005DB08B763EEEA542564D73 /* Products */;
+			productRefGroup = F1280904A0E77DF7D056A3682FD2EBCF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1D0F72687C797DA355CFCC3AE294D2B /* Pods-RSEmailFeedback_Example */,
-				4EEAF5653DDFD5F6BD4E77E3BCF07244 /* Pods-RSEmailFeedback_Tests */,
-				81E9CF67676E3F8F831D70F635A1A83F /* RSEmailFeedback */,
-				35017B23DE254BA8349EA309F6FC52CF /* RSEmailFeedback-RSEmailFeedback */,
+				3F0E15E66B54B2B42F029A61934F800D /* GBDeviceInfo */,
+				AAF66E3670EA39902321C110A377D84D /* Pods-RSEmailFeedback_Example */,
+				EA0542649EC914647C0A28BEC55FD4A5 /* Pods-RSEmailFeedback_Tests */,
+				51F3F1BEC0C2E22349011F887F4DE9AB /* RSEmailFeedback */,
+				82EF709F34E09619F8BF328C0D6FB61A /* RSEmailFeedback-RSEmailFeedback */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8C984924C6C8B8D81588578A1C803916 /* Resources */ = {
+		39AC0DF3A42BDBE134C41EE5614681A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E731A30BCF5E593BA35F4185FD09DBB /* RSEmailFeedback.bundle in Resources */,
+				0BB4171AE7F9E950BB321428AC2C58FC /* RSEmailFeedback.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B536660EA00D5EE7032961A264CED2 /* Resources */ = {
+		F43E3FAD44FE9953CFBC901A47BD5119 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,58 +546,86 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		36BF6684E60ED16DB685980912AA6EBB /* Sources */ = {
+		2009ACE3B3C3DDF19C3C020BD53FA943 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56C90F0586F23B0DC7A7CF43B3846DDB /* Pods-RSEmailFeedback_Example-dummy.m in Sources */,
+				0081C94AAFB1E76E307BF3E4C53EA0EC /* RSEmailFeedback-dummy.m in Sources */,
+				B5550DEFFB11C7E23A18CFAA12FF0A2C /* RSEmailFeedback.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62115531B1705F47C61752D8A3423322 /* Sources */ = {
+		4361A56BDE5C5488027C69DE9F84FF8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA674C9608950D5084D24E246EF8AEA5 /* Pods-RSEmailFeedback_Tests-dummy.m in Sources */,
+				77B4236E9019B4F935D8D5590B049C72 /* Pods-RSEmailFeedback_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EC7464F29C6983AFD7F5CCB6B005116 /* Sources */ = {
+		925C29D0D649354056E72DE61E911711 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8FEA2344FEE0FACDD754A935E78A1EE /* RSEmailFeedback-dummy.m in Sources */,
-				37041438CEF31B63E6D95E7F3AEC17B1 /* RSEmailFeedback.m in Sources */,
+				90968809F441B8C71E386D96497242B9 /* GBDeviceInfo-dummy.m in Sources */,
+				C82C58666927EE8F033F0830CD625608 /* GBDeviceInfo_Common.m in Sources */,
+				52218EE4E98C8D1BCF8E4F58D125B89D /* GBDeviceInfo_iOS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84F0131C758D1243581E47BDAE2D256A /* Sources */ = {
+		A26D9435C0B8008699AEDF3E6AE55E0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBD90F00E89B2528ED7A61A24C281CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7247404FB0C7421C63EB34E5E81FA9B /* Pods-RSEmailFeedback_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2E0FC14465641187C0116D73078FA8A1 /* PBXTargetDependency */ = {
+		2B574D08205E251AAC5C6B6433B21367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBDeviceInfo;
+			target = 3F0E15E66B54B2B42F029A61934F800D /* GBDeviceInfo */;
+			targetProxy = 79BF805B651F957F7FE6C85ADA26BCB4 /* PBXContainerItemProxy */;
+		};
+		4BFED37812B5C234DEC9F3B8C8C8ECAA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RSEmailFeedback;
-			target = 81E9CF67676E3F8F831D70F635A1A83F /* RSEmailFeedback */;
-			targetProxy = 029407A9527BE9A7812F24407EBE972E /* PBXContainerItemProxy */;
+			target = 51F3F1BEC0C2E22349011F887F4DE9AB /* RSEmailFeedback */;
+			targetProxy = 5CF66798856DEC2D6A59C7814C982741 /* PBXContainerItemProxy */;
 		};
-		357E77D55A4B7814135EBCE8F1258469 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RSEmailFeedback;
-			target = 81E9CF67676E3F8F831D70F635A1A83F /* RSEmailFeedback */;
-			targetProxy = 1EAC37F57F6B85EFA5623A557D2A552B /* PBXContainerItemProxy */;
-		};
-		D390A71490DE552A47ECF38D5F3F0EE9 /* PBXTargetDependency */ = {
+		6407667C28EF3F86766300D3DBB16509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "RSEmailFeedback-RSEmailFeedback";
-			target = 35017B23DE254BA8349EA309F6FC52CF /* RSEmailFeedback-RSEmailFeedback */;
-			targetProxy = 1AC137BEF9B3E14138A79A4FD0BBD8B0 /* PBXContainerItemProxy */;
+			target = 82EF709F34E09619F8BF328C0D6FB61A /* RSEmailFeedback-RSEmailFeedback */;
+			targetProxy = F31E2EFB57F4F52DD7F793DF8F471C18 /* PBXContainerItemProxy */;
+		};
+		6DBDFE75904ACEB58484158422DB8B1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBDeviceInfo;
+			target = 3F0E15E66B54B2B42F029A61934F800D /* GBDeviceInfo */;
+			targetProxy = DD9F0965DB5F82F9FC555D55B415BE43 /* PBXContainerItemProxy */;
+		};
+		CB19ACC21BD3DBAD8F9F6AC205BFDC99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GBDeviceInfo;
+			target = 3F0E15E66B54B2B42F029A61934F800D /* GBDeviceInfo */;
+			targetProxy = 1F75797677680CF284D552ECF95EC3FA /* PBXContainerItemProxy */;
+		};
+		DC53B7E18066082AAD6236436AEF5C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSEmailFeedback;
+			target = 51F3F1BEC0C2E22349011F887F4DE9AB /* RSEmailFeedback */;
+			targetProxy = A141732D67F03FBB6FFA0E41E75AD9A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -529,9 +703,9 @@
 			};
 			name = Debug;
 		};
-		15FD130EF42572298C05ADAF99D55900 /* Release */ = {
+		1DEF1EA8B4ABCEE0F8763F31321DA57E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B5F2D02DE25C81D385AC4FB47A16D85 /* RSEmailFeedback.xcconfig */;
+			baseConfigurationReference = 2CC551739B8DB9A029CD0CB3BFCC5CF7 /* GBDeviceInfo.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -540,14 +714,14 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RSEmailFeedback/RSEmailFeedback-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RSEmailFeedback/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GBDeviceInfo/GBDeviceInfo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBDeviceInfo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RSEmailFeedback/RSEmailFeedback.modulemap";
+				MODULEMAP_FILE = "Target Support Files/GBDeviceInfo/GBDeviceInfo.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = RSEmailFeedback;
+				PRODUCT_NAME = GBDeviceInfo;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,106 +730,7 @@
 			};
 			name = Release;
 		};
-		43A57599ED575CA208243FCD5248C24A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B5F2D02DE25C81D385AC4FB47A16D85 /* RSEmailFeedback.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RSEmailFeedback/RSEmailFeedback-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RSEmailFeedback/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RSEmailFeedback/RSEmailFeedback.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RSEmailFeedback;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7332099ECDC084BCEFADBDC53B830091 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBFA79D1BF8844AFA2DB93E964FC331A /* Pods-RSEmailFeedback_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RSEmailFeedback_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RSEmailFeedback_Example/Pods-RSEmailFeedback_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_RSEmailFeedback_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DAE30D2289A21B344ED9067968A523F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED3AA4D552923DB9756E06FC4553A817 /* Pods-RSEmailFeedback_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RSEmailFeedback_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RSEmailFeedback_Tests/Pods-RSEmailFeedback_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_RSEmailFeedback_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A45A014D7A618C8EE6E58256AD817BF6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B5F2D02DE25C81D385AC4FB47A16D85 /* RSEmailFeedback.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = RSEmailFeedback;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B48BD8978E9B00D86EF91820065DD651 /* Debug */ = {
+		20FE553D915733983A818666D2F5D070 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A60AF0BCC8F58604A829B5FED33C0B10 /* Pods-RSEmailFeedback_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -685,7 +760,7 @@
 			};
 			name = Debug;
 		};
-		E8D684A60EDB91AED7E3579B46F9A05E /* Debug */ = {
+		3ADAC476A60F126D25988B0D81BB3A9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81AC88708D8EC0A33F730A3A183966CC /* Pods-RSEmailFeedback_Example.debug.xcconfig */;
 			buildSettings = {
@@ -715,7 +790,7 @@
 			};
 			name = Debug;
 		};
-		EB840B6E365999B4AECA78FAB1F65EC7 /* Debug */ = {
+		4E823597CA44BA600A422ED2BFAA7646 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B5F2D02DE25C81D385AC4FB47A16D85 /* RSEmailFeedback.xcconfig */;
 			buildSettings = {
@@ -726,6 +801,159 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		64EDE6D825C04D4E067AA397E34B610E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFA79D1BF8844AFA2DB93E964FC331A /* Pods-RSEmailFeedback_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RSEmailFeedback_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSEmailFeedback_Example/Pods-RSEmailFeedback_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RSEmailFeedback_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72420324B6A6C13C64338254756CA79E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC551739B8DB9A029CD0CB3BFCC5CF7 /* GBDeviceInfo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GBDeviceInfo/GBDeviceInfo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GBDeviceInfo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GBDeviceInfo/GBDeviceInfo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GBDeviceInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C8532572E58AE9833C4BF1D6797AF60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5F2D02DE25C81D385AC4FB47A16D85 /* RSEmailFeedback.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSEmailFeedback/RSEmailFeedback-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSEmailFeedback/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSEmailFeedback/RSEmailFeedback.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RSEmailFeedback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8826BDB71D6A74A127DA617BFF45EA88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3AA4D552923DB9756E06FC4553A817 /* Pods-RSEmailFeedback_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RSEmailFeedback_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSEmailFeedback_Tests/Pods-RSEmailFeedback_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RSEmailFeedback_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		883AF1DB47D1B5ADAB8E206029E0DD9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5F2D02DE25C81D385AC4FB47A16D85 /* RSEmailFeedback.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSEmailFeedback/RSEmailFeedback-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSEmailFeedback/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSEmailFeedback/RSEmailFeedback.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RSEmailFeedback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C26C34E8352AB698685D72A7C8D9C065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5F2D02DE25C81D385AC4FB47A16D85 /* RSEmailFeedback.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RSEmailFeedback;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -739,38 +967,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7CB028E8F44332BD2C6B992618F7FAC8 /* Build configuration list for PBXNativeTarget "Pods-RSEmailFeedback_Example" */ = {
+		40EEFE3F84E91E426572B3A70C3578CA /* Build configuration list for PBXNativeTarget "RSEmailFeedback-RSEmailFeedback" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8D684A60EDB91AED7E3579B46F9A05E /* Debug */,
-				7332099ECDC084BCEFADBDC53B830091 /* Release */,
+				4E823597CA44BA600A422ED2BFAA7646 /* Debug */,
+				C26C34E8352AB698685D72A7C8D9C065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A76DFB50F6D9A50546A0ABAC46D9811 /* Build configuration list for PBXNativeTarget "RSEmailFeedback-RSEmailFeedback" */ = {
+		62F3E6711767CAC584F0A7AE56D3FE73 /* Build configuration list for PBXNativeTarget "GBDeviceInfo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EB840B6E365999B4AECA78FAB1F65EC7 /* Debug */,
-				A45A014D7A618C8EE6E58256AD817BF6 /* Release */,
+				72420324B6A6C13C64338254756CA79E /* Debug */,
+				1DEF1EA8B4ABCEE0F8763F31321DA57E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4EBF502193147FF365DD8951A11329C /* Build configuration list for PBXNativeTarget "RSEmailFeedback" */ = {
+		6A81300C6A881BD5530CA0E596471715 /* Build configuration list for PBXNativeTarget "RSEmailFeedback" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43A57599ED575CA208243FCD5248C24A /* Debug */,
-				15FD130EF42572298C05ADAF99D55900 /* Release */,
+				7C8532572E58AE9833C4BF1D6797AF60 /* Debug */,
+				883AF1DB47D1B5ADAB8E206029E0DD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA1BDCF2686A00CD11DA3754124ED801 /* Build configuration list for PBXNativeTarget "Pods-RSEmailFeedback_Tests" */ = {
+		6FFCA11063DC0F87C0FF35F88A28372F /* Build configuration list for PBXNativeTarget "Pods-RSEmailFeedback_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B48BD8978E9B00D86EF91820065DD651 /* Debug */,
-				8DAE30D2289A21B344ED9067968A523F /* Release */,
+				20FE553D915733983A818666D2F5D070 /* Debug */,
+				8826BDB71D6A74A127DA617BFF45EA88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3073E25A1AF3D5944BBACEAD18A49B1 /* Build configuration list for PBXNativeTarget "Pods-RSEmailFeedback_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADAC476A60F126D25988B0D81BB3A9F /* Debug */,
+				64EDE6D825C04D4E067AA397E34B610E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

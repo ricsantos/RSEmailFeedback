@@ -7,6 +7,7 @@
 //
 
 #import "RSEmailFeedback.h"
+#import <GBDeviceInfo/GBDeviceInfo.h>
 
 @interface RSEmailFeedback () <MFMailComposeViewControllerDelegate>
 
@@ -37,6 +38,9 @@
         NSMutableArray *lines = [NSMutableArray array];
         [lines addObject:@"<br><br><br><br><br><br><br><br><br><br><br>"];
         [lines addObject:@"<hr>Device info:"];
+        
+        NSString *deviceModel = [GBDeviceInfo deviceInfo].modelString;
+        [lines addObject:deviceModel];
         
         NSString *systemVersion = [[UIDevice currentDevice] systemVersion];
         [lines addObject:[NSString stringWithFormat:@"iOS %@", systemVersion]];

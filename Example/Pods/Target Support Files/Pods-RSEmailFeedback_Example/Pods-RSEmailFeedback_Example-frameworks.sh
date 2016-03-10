@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-RSEmailFeedback_Example/GBDeviceInfo.framework"
   install_framework "Pods-RSEmailFeedback_Example/RSEmailFeedback.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-RSEmailFeedback_Example/GBDeviceInfo.framework"
   install_framework "Pods-RSEmailFeedback_Example/RSEmailFeedback.framework"
 fi
