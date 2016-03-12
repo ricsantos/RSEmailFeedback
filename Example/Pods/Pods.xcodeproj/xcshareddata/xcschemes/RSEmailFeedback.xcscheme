@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2123471883FBC10C3FD47347'
+               BlueprintIdentifier = 'C22E96D4588F1D0DDFBE845D'
                BlueprintName = 'RSEmailFeedback'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'RSEmailFeedback.framework'>
