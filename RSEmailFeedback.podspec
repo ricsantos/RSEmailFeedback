@@ -26,9 +26,9 @@ A simple way to get direct feedback from your App users is via email. This compo
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'RSEmailFeedback' => ['Pod/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #   'RSEmailFeedback' => ['Pod/Assets/*.png']
+  #}
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
