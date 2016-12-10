@@ -1,10 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'RSEmailFeedback_Example', :exclusive => true do
+target 'RSEmailFeedback_Example' do
   pod 'RSEmailFeedback', :path => '../'
 end
 
-target 'RSEmailFeedback_Tests', :exclusive => true do
+target 'RSEmailFeedback_Tests' do
   pod 'RSEmailFeedback', :path => '../'
 end
