@@ -21,4 +21,6 @@ typedef void (^RSEmailFeedbackCompletion)(MFMailComposeResult result, NSError *e
 
 @property (nonatomic, strong) UIColor *tintColor;
 
++ (NSString *)stringForMailComposeResult:(MFMailComposeResult)result;
+
 @end

@@ -84,4 +84,19 @@
     self.strongSelf = nil;
 }
 
+#pragma mark - Conveniance
+
++ (NSString *)stringForMailComposeResult:(MFMailComposeResult)result {
+    switch (result) {
+        case MFMailComposeResultCancelled:
+            return @"Cancelled";
+        case MFMailComposeResultSent:
+            return @"Sent";
+        case MFMailComposeResultSaved:
+            return @"Saved";
+        case MFMailComposeResultFailed:
+            return @"Failed";
+    }
+}
+
 @end
