@@ -32,5 +32,5 @@ A simple way to get direct feedback from your App users is via email. This compo
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'GBDeviceInfo', '~> 4.2'
+  s.dependency 'GBDeviceInfo'
 end
