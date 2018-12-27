@@ -8,7 +8,7 @@
 A simple way to get direct feedback from your App users is via email. This component simplifies the presentation of the email composer by adding blocks, and pre-populates the email message body with details about the device, OS and app version.
 
 
-<img src=https://github.com/ricsantos/RSEmailFeedback/raw/develop/Screenshots/screenshot-01.png width=375>
+<img src=https://raw.githubusercontent.com/ricsantos/RSEmailFeedback/master/Screenshots/screenshot-01.png width=1000>
 
 ## Installation
 
