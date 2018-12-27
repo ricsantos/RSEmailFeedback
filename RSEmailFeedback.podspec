@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RSEmailFeedback"
-  s.version          = "1.0.0"
+  s.version          = "1.1.0"
   s.summary          = "An iOS component to present the email compose sheet with device and app info in the body."
 
   s.description      = <<-DESC
@@ -16,11 +16,11 @@ A simple way to get direct feedback from your App users is via email. This compo
                        DESC
 
   s.homepage         = "https://github.com/ricsantos/RSEmailFeedback"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots      = "https://raw.githubusercontent.com/ricsantos/RSEmailFeedback/develop/Screenshots/screenshot-01.png"
   s.license          = 'MIT'
   s.author           = { "Ric Santos" => "rics@ntos.me" }
   s.source           = { :git => "https://github.com/ricsantos/RSEmailFeedback.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/ric__santos'
+  # s.social_media_url = 'https://twitter.com/rixantos'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
