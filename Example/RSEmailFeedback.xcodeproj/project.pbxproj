@@ -37,7 +37,7 @@
 
 /* Begin PBXFileReference section */
 		120A1FC882AFFDB1B5D6FAE9 /* Pods-RSEmailFeedback_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSEmailFeedback_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSEmailFeedback_Tests/Pods-RSEmailFeedback_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2CC0C1CE5EDC0A7ED2E36F59 /* RSEmailFeedback.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RSEmailFeedback.podspec; path = ../RSEmailFeedback.podspec; sourceTree = "<group>"; };
+		2CC0C1CE5EDC0A7ED2E36F59 /* RSEmailFeedback.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RSEmailFeedback.podspec; path = ../RSEmailFeedback.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40F8A707DB02883C4A29F468 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5947FF8516769B17F24D07E1 /* Pods-RSEmailFeedback_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSEmailFeedback_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSEmailFeedback_Tests/Pods-RSEmailFeedback_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RSEmailFeedback_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSEmailFeedback_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };

@@ -60,12 +60,11 @@
         
     } else {
         dispatch_async(dispatch_get_main_queue(), ^{
-            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"Cannot send mail", nil)
-                                                            message:NSLocalizedString(@"This device does not have an email account configured. Please configure one in the device settings to send email.", nil)
-                                                           delegate:nil
-                                                  cancelButtonTitle:nil
-                                                  otherButtonTitles:NSLocalizedString(@"OK", nil), nil];
-            [alert show];
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:NSLocalizedString(@"Cannot send mail", nil)
+                                                                           message:NSLocalizedString(@"This device does not have an email account configured. Please configure one in the device settings to send email.", nil)
+                                                                    preferredStyle:UIAlertControllerStyleAlert];
+            [alert addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"OK", nil) style:UIAlertActionStyleDefault handler:nil]];
+            [viewController presentViewController:alert animated:YES completion:nil];
         });
     }
 }
