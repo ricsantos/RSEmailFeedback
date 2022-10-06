@@ -72,7 +72,7 @@
 
 /* Begin PBXFileReference section */
 		0200B4D41C785A1455BE012A83B469B9 /* Pods-RSEmailFeedback_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSEmailFeedback_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		034E8E2481E08B52D240F1B52A40E5DD /* Pods-RSEmailFeedback_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RSEmailFeedback_Tests"; path = Pods_RSEmailFeedback_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		034E8E2481E08B52D240F1B52A40E5DD /* Pods_RSEmailFeedback_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSEmailFeedback_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B99664FB6398FCFB80F182E6B6DE19D /* Pods-RSEmailFeedback_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSEmailFeedback_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0E3B2E5AD7C7723444D37824386DE5A0 /* GBDeviceInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GBDeviceInfo-dummy.m"; sourceTree = "<group>"; };
 		14975B9063ACBD3D1D23809064C974CE /* Pods-RSEmailFeedback_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSEmailFeedback_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -85,13 +85,13 @@
 		477F6EA3A2819EE4ACF0E107CF668B5C /* Pods-RSEmailFeedback_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSEmailFeedback_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4832C3B4A10DCA5CECCD4C1E1C27A63D /* Pods-RSEmailFeedback_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSEmailFeedback_Example-dummy.m"; sourceTree = "<group>"; };
 		4915016433B6F962D909C522643F38BA /* RSEmailFeedback-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSEmailFeedback-prefix.pch"; sourceTree = "<group>"; };
-		4C0D27635A2DE533DE0529DB80B4F647 /* RSEmailFeedback.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RSEmailFeedback.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4D4566635B61A1CF2B8229F2B73B743B /* RSEmailFeedback */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSEmailFeedback; path = RSEmailFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0D27635A2DE533DE0529DB80B4F647 /* RSEmailFeedback.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RSEmailFeedback.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D4566635B61A1CF2B8229F2B73B743B /* RSEmailFeedback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSEmailFeedback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8A4DE530BD195E242D72C9597B673E /* Pods-RSEmailFeedback_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSEmailFeedback_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5AF02397EBFB7EC1D7FC87532DC8F21A /* Pods-RSEmailFeedback_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSEmailFeedback_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		61D72C02D590005AF8123FEB1888700A /* GBDeviceInfoTypes_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoTypes_iOS.h; path = GBDeviceInfo/GBDeviceInfoTypes_iOS.h; sourceTree = "<group>"; };
 		6400B7F331873C5013EFEC0CEBE1B9B8 /* RSEmailFeedback.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSEmailFeedback.m; path = Pod/Classes/RSEmailFeedback.m; sourceTree = "<group>"; };
-		64297AD584FD006B2F17FA5804C28260 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		64297AD584FD006B2F17FA5804C28260 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		69DC4FFE0898B20B936DCAC22094C9D1 /* GBDeviceInfoTypes_Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoTypes_Common.h; path = GBDeviceInfo/GBDeviceInfoTypes_Common.h; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73A37F4A970D43F1AAE79B8CFC907818 /* RSEmailFeedback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSEmailFeedback.debug.xcconfig; sourceTree = "<group>"; };
@@ -102,10 +102,10 @@
 		858D57BEF1768CC970704409BEDD7D95 /* GBDeviceInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBDeviceInfo-umbrella.h"; sourceTree = "<group>"; };
 		86824B4038B4A43B02187EBB141F5190 /* GBDeviceInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GBDeviceInfo-prefix.pch"; sourceTree = "<group>"; };
 		8FB5264BEE3389EC1FD32210E9296493 /* GBDeviceInfoInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfoInterface.h; path = GBDeviceInfo/GBDeviceInfoInterface.h; sourceTree = "<group>"; };
-		938E39FEA9E76D8E3B64C12EA2BAB830 /* GBDeviceInfo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GBDeviceInfo; path = GBDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		938E39FEA9E76D8E3B64C12EA2BAB830 /* GBDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9820A70903AE1FE834FF4607F175B525 /* GBDeviceInfo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GBDeviceInfo-Info.plist"; sourceTree = "<group>"; };
 		9C20996E22D7E92CB0447AADE889EFC5 /* Pods-RSEmailFeedback_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSEmailFeedback_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1E7E22B87485FC9255712EA097372FE /* RSEmailFeedback.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSEmailFeedback.modulemap; sourceTree = "<group>"; };
 		A723C557A59A4A252A05EC79154314C0 /* GBDeviceInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GBDeviceInfo.modulemap; sourceTree = "<group>"; };
 		A7A974F259F4FE450A79F6C09E72B59B /* GBDeviceInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GBDeviceInfo.release.xcconfig; sourceTree = "<group>"; };
@@ -117,10 +117,10 @@
 		DE6847F46B52BD67CAC7973A81CAEA4F /* RSEmailFeedback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSEmailFeedback.h; path = Pod/Classes/RSEmailFeedback.h; sourceTree = "<group>"; };
 		E5BF4278550FD0A61C81C665B80E9305 /* Pods-RSEmailFeedback_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSEmailFeedback_Tests-Info.plist"; sourceTree = "<group>"; };
 		E5DD222662FD1CFBE6511BB8CD3EFAD5 /* GBDeviceInfo_iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_iOS.h; path = GBDeviceInfo/GBDeviceInfo_iOS.h; sourceTree = "<group>"; };
-		E68F74D168BC9C46FFC3DE4ED1D6A806 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E68F74D168BC9C46FFC3DE4ED1D6A806 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E6E3112AA8D27A7A8DBCD2A72E1C8256 /* GBDeviceInfo_Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GBDeviceInfo_Subclass.h; path = GBDeviceInfo/GBDeviceInfo_Subclass.h; sourceTree = "<group>"; };
 		E6FAFDFBF6587256D38835DB12816809 /* GBDeviceInfo_iOS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GBDeviceInfo_iOS.m; path = GBDeviceInfo/GBDeviceInfo_iOS.m; sourceTree = "<group>"; };
-		EC3728EB14530FE622431AEB00816AD9 /* Pods-RSEmailFeedback_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RSEmailFeedback_Example"; path = Pods_RSEmailFeedback_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3728EB14530FE622431AEB00816AD9 /* Pods_RSEmailFeedback_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSEmailFeedback_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEC3C9C1C77814143FC266C0B08760F /* RSEmailFeedback-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSEmailFeedback-dummy.m"; sourceTree = "<group>"; };
 		F02C7B5B7AF4C9DEB2389981C74A1AC5 /* RSEmailFeedback-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSEmailFeedback-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,10 +194,10 @@
 		24950B6073D1E6D077E1DCD9AC115BB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				938E39FEA9E76D8E3B64C12EA2BAB830 /* GBDeviceInfo */,
-				EC3728EB14530FE622431AEB00816AD9 /* Pods-RSEmailFeedback_Example */,
-				034E8E2481E08B52D240F1B52A40E5DD /* Pods-RSEmailFeedback_Tests */,
-				4D4566635B61A1CF2B8229F2B73B743B /* RSEmailFeedback */,
+				938E39FEA9E76D8E3B64C12EA2BAB830 /* GBDeviceInfo.framework */,
+				EC3728EB14530FE622431AEB00816AD9 /* Pods_RSEmailFeedback_Example.framework */,
+				034E8E2481E08B52D240F1B52A40E5DD /* Pods_RSEmailFeedback_Tests.framework */,
+				4D4566635B61A1CF2B8229F2B73B743B /* RSEmailFeedback.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -297,7 +297,6 @@
 				F9B82026B4DEE3C413F6A36A008EBD1B /* Core */,
 				022A62C276CB6D4C0EB6C637C1E180F9 /* Support Files */,
 			);
-			name = GBDeviceInfo;
 			path = GBDeviceInfo;
 			sourceTree = "<group>";
 		};
@@ -399,7 +398,7 @@
 			);
 			name = RSEmailFeedback;
 			productName = RSEmailFeedback;
-			productReference = 4D4566635B61A1CF2B8229F2B73B743B /* RSEmailFeedback */;
+			productReference = 4D4566635B61A1CF2B8229F2B73B743B /* RSEmailFeedback.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A768836DD44CFF9027ABB27AA6976486 /* Pods-RSEmailFeedback_Example */ = {
@@ -419,7 +418,7 @@
 			);
 			name = "Pods-RSEmailFeedback_Example";
 			productName = Pods_RSEmailFeedback_Example;
-			productReference = EC3728EB14530FE622431AEB00816AD9 /* Pods-RSEmailFeedback_Example */;
+			productReference = EC3728EB14530FE622431AEB00816AD9 /* Pods_RSEmailFeedback_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BB98E1FC6C2504C46E7DE517B82518B8 /* GBDeviceInfo */ = {
@@ -437,7 +436,7 @@
 			);
 			name = GBDeviceInfo;
 			productName = GBDeviceInfo;
-			productReference = 938E39FEA9E76D8E3B64C12EA2BAB830 /* GBDeviceInfo */;
+			productReference = 938E39FEA9E76D8E3B64C12EA2BAB830 /* GBDeviceInfo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CCA9341595EC860D0CE875A8D33BD46B /* Pods-RSEmailFeedback_Tests */ = {
@@ -457,7 +456,7 @@
 			);
 			name = "Pods-RSEmailFeedback_Tests";
 			productName = Pods_RSEmailFeedback_Tests;
-			productReference = 034E8E2481E08B52D240F1B52A40E5DD /* Pods-RSEmailFeedback_Tests */;
+			productReference = 034E8E2481E08B52D240F1B52A40E5DD /* Pods_RSEmailFeedback_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -467,7 +466,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1400;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -598,7 +597,6 @@
 			baseConfigurationReference = 4F8A4DE530BD195E242D72C9597B673E /* Pods-RSEmailFeedback_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -632,7 +630,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73A37F4A970D43F1AAE79B8CFC907818 /* RSEmailFeedback.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -694,6 +691,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -729,7 +727,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A7A974F259F4FE450A79F6C09E72B59B /* GBDeviceInfo.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -741,7 +738,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GBDeviceInfo/GBDeviceInfo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GBDeviceInfo/GBDeviceInfo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GBDeviceInfo/GBDeviceInfo.modulemap";
 				PRODUCT_MODULE_NAME = GBDeviceInfo;
@@ -760,7 +757,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 82CE5D30820C1F1DD59D9EA431BD490C /* RSEmailFeedback.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -793,7 +789,6 @@
 			baseConfigurationReference = 14975B9063ACBD3D1D23809064C974CE /* Pods-RSEmailFeedback_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -857,6 +852,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -877,8 +873,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -889,7 +884,6 @@
 			baseConfigurationReference = 0B99664FB6398FCFB80F182E6B6DE19D /* Pods-RSEmailFeedback_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -923,7 +917,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB9131E7F86EDA13C4FFE3B76F83E4F9 /* GBDeviceInfo.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -935,7 +928,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/GBDeviceInfo/GBDeviceInfo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/GBDeviceInfo/GBDeviceInfo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/GBDeviceInfo/GBDeviceInfo.modulemap";
 				PRODUCT_MODULE_NAME = GBDeviceInfo;
@@ -954,7 +947,6 @@
 			baseConfigurationReference = 0200B4D41C785A1455BE012A83B469B9 /* Pods-RSEmailFeedback_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
