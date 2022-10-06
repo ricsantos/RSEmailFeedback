@@ -530,7 +530,6 @@
 			baseConfigurationReference = 73253902D49FD81A3FF45C6B /* Pods-RSEmailFeedback_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = KXH3S756QU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSEmailFeedback/RSEmailFeedback-Prefix.pch";
@@ -548,7 +547,6 @@
 			baseConfigurationReference = 9A253589A88CF82FD87B34BB /* Pods-RSEmailFeedback_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = KXH3S756QU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RSEmailFeedback/RSEmailFeedback-Prefix.pch";
