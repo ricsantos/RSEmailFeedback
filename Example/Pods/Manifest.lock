@@ -2,20 +2,24 @@ PODS:
   - GBDeviceInfo (4.2.2):
     - GBDeviceInfo/Core (= 4.2.2)
   - GBDeviceInfo/Core (4.2.2)
-  - RSEmailFeedback (0.3.0):
-    - GBDeviceInfo (~> 4.2)
+  - RSEmailFeedback (1.1.0):
+    - GBDeviceInfo
 
 DEPENDENCIES:
   - RSEmailFeedback (from `../`)
 
+SPEC REPOS:
+  trunk:
+    - GBDeviceInfo
+
 EXTERNAL SOURCES:
   RSEmailFeedback:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
   GBDeviceInfo: 0a6e2fc04989ce248572bb988f1a764102eb0e5d
-  RSEmailFeedback: 3a73d21ef3d0757dc74a67b3196b7e5056063576
+  RSEmailFeedback: 1173dae863f95965885e62aad509423af4ee6af0
 
-PODFILE CHECKSUM: 3e419ec7dd3bc4cde19cb6ead57eadbd9ce9e319
+PODFILE CHECKSUM: 92a91c651ef3d01444f95fb2da69b2b031cbfe4e
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.11.3

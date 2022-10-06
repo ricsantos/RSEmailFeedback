@@ -22,7 +22,7 @@ A simple way to get direct feedback from your App users is via email. This compo
   s.source           = { :git => "https://github.com/ricsantos/RSEmailFeedback.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/rixantos'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '12.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
