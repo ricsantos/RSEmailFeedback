@@ -507,12 +507,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					C54003E66D029AE6ABEC9B10449FBCC6 = {
+						DevelopmentTeam = KXH3S756QU;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -832,6 +838,7 @@
 			baseConfigurationReference = D30C14018A8A270FA9F489BD65642908 /* RSEmailFeedback.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RSEmailFeedback";
+				DEVELOPMENT_TEAM = KXH3S756QU;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/RSEmailFeedback/ResourceBundle-RSEmailFeedback-Info.plist";
@@ -982,6 +989,7 @@
 			baseConfigurationReference = D30C14018A8A270FA9F489BD65642908 /* RSEmailFeedback.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RSEmailFeedback";
+				DEVELOPMENT_TEAM = KXH3S756QU;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/RSEmailFeedback/ResourceBundle-RSEmailFeedback-Info.plist";
