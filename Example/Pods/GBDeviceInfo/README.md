@@ -70,8 +70,8 @@ Don't forget to import header.
 
 If you want to use the `isJailbroken` property, make sure you first add the Jailbreak subspec to your project's Podfile, e.g.:
 ```ruby
-pod 'GBDeviceInfo', '~> 3.5'
-pod 'GBDeviceInfo/Jailbreak', '~> 3.5'
+pod 'GBDeviceInfo', '~> 6.0'
+pod 'GBDeviceInfo/Jailbreak', '~> 6.0'
 ```
 
 Missing a property you need? Submit a Pull Request or contact [sales@goonbee.com](mailto:sales@goonbee.com?subject=GBDeviceInfo%20Enterprise)!
@@ -167,26 +167,63 @@ iOS Device support
 * iPhone6Plus
 * iPhone6S
 * iPhone6SPlus
-* iPhoneSE
 * iPhone7
 * iPhone7Plus
+* iPhone8
+* iPhone8Plus
+* iPhoneSE
+* iPhoneSE2
+* iPhoneX
+* iPhoneXR
+* iPhoneXS
+* iPhoneXSMax
+* iPhone11
+* iPhone11Pro
+* iPhone11ProMax
+* iPhone12Mini
+* iPhone12
+* iPhone12Pro
+* iPhone12ProMax
+* iPhone13Mini
+* iPhone13
+* iPhone13Pro
+* iPhone13ProMax
 * iPad1
 * iPad2
 * iPad3
 * iPad4
+* iPad5
+* iPad6
+* iPad7
+* iPad8
+* iPad9
 * iPadMini1
 * iPadMini2
 * iPadMini3
+* iPadMini4
+* iPadMini5
+* iPadMini6
 * iPadAir1
 * iPadAir2
+* iPadAir3
+* iPadAir4
 * iPadPro9p7Inch
+* iPadPro10p5Inch
 * iPadPro12p9Inch
+* iPadPro12p9Inch2
+* iPadPro11p
+* iPadPro11p1TB
+* iPadPro11pInch4
+* iPadPro12p9Inch3
+* iPadPro12p9Inch31TB
+* iPadPro12p9Inch4
 * iPod1
 * iPod2
 * iPod3
 * iPod4
 * iPod5
 * iPod6
+* iPod7
 * iPhone Simulator
 * iPad Simulator
 
