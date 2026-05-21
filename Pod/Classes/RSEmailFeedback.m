@@ -55,7 +55,16 @@
         [lines addObject:@"<hr>"];
         
         [mailComposeViewController setMessageBody:[lines componentsJoinedByString:@"<br>"] isHTML:YES];
-        
+
+        for (NSURL *url in self.attachmentURLs) {
+            NSData *data = [NSData dataWithContentsOfURL:url];
+            if (data) {
+                NSString *fileName = url.lastPathComponent ?: @"attachment";
+                NSString *mimeType = [RSEmailFeedback mimeTypeForFileExtension:url.pathExtension];
+                [mailComposeViewController addAttachmentData:data mimeType:mimeType fileName:fileName];
+            }
+        }
+
         [viewController presentViewController:mailComposeViewController animated:YES completion:nil];
         
     } else {
@@ -96,6 +105,31 @@
         case MFMailComposeResultFailed:
             return @"Failed";
     }
+}
+
++ (NSString *)mimeTypeForFileExtension:(NSString *)ext {
+    if (ext.length == 0) {
+        return @"application/octet-stream";
+    }
+    static NSDictionary<NSString *, NSString *> *map;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        map = @{
+            @"txt":  @"text/plain",
+            @"log":  @"text/plain",
+            @"json": @"application/json",
+            @"xml":  @"application/xml",
+            @"csv":  @"text/csv",
+            @"html": @"text/html",
+            @"zip":  @"application/zip",
+            @"pdf":  @"application/pdf",
+            @"png":  @"image/png",
+            @"jpg":  @"image/jpeg",
+            @"jpeg": @"image/jpeg",
+            @"gif":  @"image/gif",
+        };
+    });
+    return map[ext.lowercaseString] ?: @"application/octet-stream";
 }
 
 @end

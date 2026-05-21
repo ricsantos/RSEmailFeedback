@@ -19,6 +19,14 @@ typedef void (^RSEmailFeedbackCompletion)(MFMailComposeResult result, NSError *e
 @property (nonatomic, strong) NSString *subject;
 @property (nonatomic, strong) NSArray<NSString *> *additionalDeviceInfo;
 
+/// File URLs to attach to the outgoing email. Each file is read at
+/// `show…` time and attached via `MFMailComposeViewController
+/// addAttachmentData:mimeType:fileName:`. MIME type is inferred from
+/// the path extension; unrecognised extensions get
+/// `application/octet-stream`. Missing or unreadable files are
+/// silently skipped.
+@property (nonatomic, strong) NSArray<NSURL *> *attachmentURLs;
+
 @property (nonatomic, strong) UIColor *tintColor;
 
 + (NSString *)stringForMailComposeResult:(MFMailComposeResult)result;
