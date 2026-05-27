@@ -7,9 +7,13 @@ let package = Package(
     products: [
         .library(name: "RSEmailFeedback", targets: ["RSEmailFeedback"])
     ],
+    dependencies: [
+        .package(url: "https://github.com/lmirosevic/GBDeviceInfo", from: "7.5.0")
+    ],
     targets: [
         .target(
             name: "RSEmailFeedback",
+            dependencies: ["GBDeviceInfo"],
             path: "Pod/Classes",
             publicHeadersPath: "."
         )
