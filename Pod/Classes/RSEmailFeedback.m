@@ -7,7 +7,19 @@
 //
 
 #import "RSEmailFeedback.h"
-#import <GBDeviceInfo/GBDeviceInfo.h>
+#import <sys/sysctl.h>
+
+static NSString *RSHardwareModelIdentifier(void) {
+    size_t size = 0;
+    sysctlbyname("hw.machine", NULL, &size, NULL, 0);
+    if (size == 0) { return @""; }
+    char *buf = malloc(size);
+    if (!buf) { return @""; }
+    sysctlbyname("hw.machine", buf, &size, NULL, 0);
+    NSString *identifier = [NSString stringWithUTF8String:buf];
+    free(buf);
+    return identifier ?: @"";
+}
 
 @interface RSEmailFeedback () <MFMailComposeViewControllerDelegate>
 
@@ -39,7 +51,7 @@
         [lines addObject:@"<br><br><br><br><br><br><br><br><br><br><br>"];
         [lines addObject:@"<hr>Device info:"];
         
-        NSString *deviceModel = [GBDeviceInfo deviceInfo].modelString;
+        NSString *deviceModel = RSHardwareModelIdentifier();
         [lines addObject:deviceModel];
         
         NSString *systemVersion = [[UIDevice currentDevice] systemVersion];
