@@ -7,7 +7,11 @@
 //
 
 #import "RSEmailFeedback.h"
+#if SWIFT_PACKAGE
+@import GBDeviceInfo;
+#else
 #import <GBDeviceInfo/GBDeviceInfo.h>
+#endif
 
 @interface RSEmailFeedback () <MFMailComposeViewControllerDelegate>
 
